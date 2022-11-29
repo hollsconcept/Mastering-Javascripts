@@ -1,0 +1,63 @@
+body{
+    background-color:#22223b;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    font-family: 'Open Sans',sans seriff;
+}
+
+.game{
+    /*display:none;*/
+}
+.result{
+  display:none;
+  padding:50px;
+  text-align:center;
+}
+
+.result h1{
+    font-size:50px;
+}
+
+.correct{
+    color: Green;
+
+}
+.wrong{
+    color:red;
+}
+.play{
+    color:white;
+    background-color:#34485b;
+    padding:20px 20px;
+    cursor:pointer;
+    border:none;
+}
+
+.container{
+    width:800px;
+    height:500px;
+    background-color: aliceblue;
+    position: relative;
+}
+.content{
+    padding:50px;
+}
+.question{
+    font-size: 50px;
+    margin-bottom:20px;
+}
+.answer{
+    font-size:24px;
+    margin-bottom:20px;
+}
+.submit{
+    background-color: blue;
+    color: white;
+    border:none;
+    width: 100%;
+    height: 50px;
+    cursor: pointer;
+    position:absolute;
+    bottom:0px
+}
